@@ -1,0 +1,15 @@
+This FAQ chatbot is about art therapy, and the model uses Regex, fuzzywuzzy and spaCy libraries. 
+This bot is the updated version of the previous one in phase 0. This bot can handle questions that are out of the scope and respond to them as accurately as possible. This bot uses a regular expression to match the user's questions about Art therapy, if the expression fails, it checks for the closest and potential match, and if the question is out of scope it checks if the user input is a question or command. Some of the expressions have the flexibility of one deletion and one insertion error.
+The bot can create Google links and Google Maps links only for questions that are asked with the word 'Where', and also it provides two links for each question, one is the entity that is recognized and one for the whole question.
+The command section only creates a link about any entity that the bot recognizes.
+You can add the bot to your Discord server and enjoy using it.
+
+Pre-created questions that you can ask from bot:
+which Walmart did you buy this from?
+where is the closest McDonalds?
+Where is the nearest Walmart?
+what kind of animal can swim?
+
+give me the address of Mohawk College.
+tell your boss about the news.
+show me the Netflix series, please.
